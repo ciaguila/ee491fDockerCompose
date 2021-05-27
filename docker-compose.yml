@@ -3,9 +3,9 @@ services:
   web-server:
     image: nginx:1.17.1
     ports:
-      - "8080:80"
+      - "8081:80"
 
   app-server:
     image: tomcat:9.0.12
     ports:
-      - "8888:8080"
+      - "8082:8080"
